@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps](https://camo.githubusercontent.com/b705814c37509ff86f4744fe042f2c5ef22f73dc62cd5636ff2f1a824be0b317/68747470733a2f2f692e696d6775722e636f6d2f6761417a6a76622e706e67)"/>
+<img src="https://camo.githubusercontent.com/b705814c37509ff86f4744fe042f2c5ef22f73dc62cd5636ff2f1a824be0b317/68747470733a2f2f692e696d6775722e636f6d2f6761417a6a76622e706e67"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
