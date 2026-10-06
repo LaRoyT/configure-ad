@@ -54,7 +54,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
   Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
-  "I had an issue with both VMs being in separate Vnet's and had to delete and recreate the VM to to connect it to the correct Vnet"
+
+  (I had an issue with both VMs being in separate Vnet's and had to delete and recreate the VM to to connect it to the correct Vnet)
 </p>
 <p>
   <img src="https://i.imgur.com/rFpHLdQ.png" height="75%" width="100%" alt="topology"/>
