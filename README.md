@@ -6,10 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<!-- <h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com) -->
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -24,9 +20,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create Resources
+- Create Resources within Azure
 - Ensure Connectivity between the client and Domain Controller
-- Install Active Directory
+- Install Active Directory (AD)
 - Create an Admin and Normal User Account in AD
 - Join Client-1 to your domain (myadproject.com)
 - Setup Remote Desktop for non-administrative users on Client-1
@@ -45,7 +41,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://i.imgur.com/hubTfey.png" height="75%" width="100%" alt="vm ms server"/>
 </p>
 <p>
-  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
+  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in the previous step:
 </p>
 <p>
   <img src="https://i.imgur.com/XyEmv8f.png" height="75%" width="100%" alt="vm windows"/>
@@ -58,6 +54,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
   Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
+  "I had an issue with both VMs being in separate Vnet's and had to delete and recreate the VM to to connect it to the correct Vnet"
 </p>
 <p>
   <img src="https://i.imgur.com/rFpHLdQ.png" height="75%" width="100%" alt="topology"/>
@@ -136,7 +133,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://i.imgur.com/mnLwTgq.png" height="75%" width="100%" alt="security group"/>
 </p>
 <p>  
-  Log out/close the Remote Desktop connection to DC-1 and log back in as “myadproject.com\jane_admin”. Use jane_admin as your admin account from now on:
+  Log out/close the Remote Desktop connection to DC-1 and log back in as the Administrator (admin) “myadproject.com\jane_admin”. Use jane_admin as your admin account from now on:
 </p>
 <p>
   <img src="https://i.imgur.com/xWZ4Kol.png" height="75%" width="100%" alt="admin login"/>
